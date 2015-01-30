@@ -48,7 +48,7 @@ OMEKA_DB_HOST='mysql'
 
 set_config 'host' "$OMEKA_DB_HOST"
 set_config 'username' "$OMEKA_DB_USER"
-set_config 'passord' "$OMEKA_DB_PASSWORD"
+set_config 'password' "$OMEKA_DB_PASSWORD"
 set_config 'dbname' "$OMEKA_DB_NAME"
 
 TERM=dumb php -- "$OMEKA_DB_HOST" "$OMEKA_DB_USER" "$OMEKA_DB_PASSWORD" "$OMEKA_DB_NAME" <<'EOPHP'
